@@ -29,6 +29,10 @@ for (let i = 0; i < 7; i++){
 
 
 //vypis do html 
+// Z každého vylosovaného čísla vygeneruj následující HTML kód:
+// <span class="cislo">8</span>
+// ... který pak přidej dovnitř prvku <div id="vyherni-cisla">:
+
 
 let winningNumbers = document.querySelector('#vyherni-cisla');
 
