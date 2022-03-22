@@ -28,4 +28,10 @@ for (let i = 0; i < 7; i++){
 }
 
 
+//vypis do html 
 
+let winningNumbers = document.querySelector('#vyherni-cisla');
+
+for (let j=0; j < randomNumbers.length; j++) {
+    winningNumbers.innerHTML += '<span class="cislo">' + randomNumbers[j] + '</span>';
+}
