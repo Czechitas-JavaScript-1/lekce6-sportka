@@ -7,11 +7,11 @@
 // <span class="cislo">8</span>
 // ... který pak přidej dovnitř prvku <div id="vyherni-cisla">:
 
-// Máš osudí čísel od 1 do 48
+// Máš osudí čísel od 1 do 49
 
 let numbers = [];
 
-for (let i = 1; i <= 48; i = i +1){
+for (let i = 1; i <= 49; i = i +1){
     numbers.push(i);
 }
 
